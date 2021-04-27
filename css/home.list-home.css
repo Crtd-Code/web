@@ -1,0 +1,45 @@
+/* 内容列表 */
+#list-home{
+    /* border: 1px solid #fff; */
+    width: 740px;
+    margin-top: 70px;
+}
+.list-item{
+    width: 700px;
+    /* height: 412px; */
+    padding: 20px;
+    /* background: #fff; */
+    background: #1d1f20;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+.list-item-title{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.list-item-title:hover{
+    color: #2c63ff;
+}
+.item-img a{
+    display: block;
+    height: 300px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    background-size: 700px 300px;
+}
+.list-desc{
+    color: #b1b1c1;
+}
+.list-item:nth-of-type(1) .img-content{
+    background: url(../images/l4.png);
+}
+.list-item:nth-of-type(2) .img-content{
+    background: url(../images/l6.png);
+}
+.list-item:nth-of-type(3) .img-content{
+    background: url(../images/l7.png);
+}
+.list-item:nth-of-type(4) .img-content{
+    background: url(../images/l8.png);
+}

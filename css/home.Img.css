@@ -1,0 +1,9 @@
+.indexImg
+{
+    margin-bottom: 60px;
+    width: 275px;
+    height: 275px;
+    background: url('/images/indexImg.jpg');
+    background-size:275px 275px;
+    border-radius: 5px;
+}

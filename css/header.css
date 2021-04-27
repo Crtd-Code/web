@@ -1,0 +1,94 @@
+*{margin: 0;padding: 0;}
+header{
+    width: 100%;
+    background: #1d1f20;
+}
+#nav{
+    width: 70%;
+    height: 107px;
+    line-height: 107px;
+    background: #1d1f20;
+    margin: 0 auto;
+    padding: 0 8px;
+    list-style: none;
+    /* overflow: hidden; */
+    clear: both;
+}
+#nav .logo1{
+    background: url(../images/logo1.jpg);
+    margin-right: 16px;
+    width: 200px;
+    height: 97.6px;
+    background-size: 200px 97.6px;
+}
+/* #nav img{
+    max-width: 200px;
+    margin-right: 16px;
+} */
+#nav>li{
+    float: left;
+}
+
+#nav>li>a{
+    color: #fff;
+    text-decoration: none;
+    width: 44px;
+    height: 36px;
+    display: inline-block;
+}
+#nav>li>a:hover{
+    color: #2c63ff;
+}
+.drop-down{
+    position: relative;
+}
+.subNav{
+    list-style: none;
+    position: absolute;
+    border: 1px solid#1d1f20;
+    background: #383e43;
+    border-radius: 5px;
+    top: 70px;
+    display: none;
+    z-index: 1;
+}
+.subNav li{
+    width: 200px;
+    height: 36.8px;
+    position: relative;
+}
+.subNav li a{
+    color: #9b9ea2;
+    text-decoration: none;
+    float: left;
+    padding: 8px 24px;
+    line-height: normal;
+}
+.subNav li a:hover{
+    color: #fff;
+}
+#btn-group{
+    float: right;
+    /* border: 1px solid #2c63ff; */
+}
+.btn{
+    border-radius: 3px;
+    padding: 5px;
+    text-decoration: none;
+}
+#btn-group #login{
+    text-decoration: none;
+    background: #2c63ff;
+    color: #fff;
+}
+#btn-group #login:hover{
+    background: #0c4bff;
+}
+#btn-group #register{
+    background: #1d1f20;
+    color: #2c63ff;
+}
+#btn-group #register:hover{
+    background: #2c63ff;
+    color: #fff;
+}

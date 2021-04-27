@@ -1,0 +1,132 @@
+#follow{
+    margin-bottom: 60px;
+    background-color: #1d1f20;
+    padding: 20px;
+    border-radius: 5px;
+}
+#follow #card-header{
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+}
+#follow #card-header span{
+    color: #2c63ff;
+}
+#text-widget{
+    list-style: none;
+}
+#text-widget li{
+    line-height: 30px;
+    position: relative;
+    font-size: 12px;
+    color: #fff;
+    width: 231px;
+    height: 30px;
+    background: #1d1f20;
+    padding: 5px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+}
+#text-widget .text-qq{
+    border: 1px solid #f16475;
+}
+#text-widget .text-vx{
+    border: 1px solid #1eade6;
+}
+#text-widget .text-email{
+    border: 1px solid #36b49d;
+}
+#text-widget .follow-text-qq,#text-widget .follow-text-vx,#text-widget .follow-text-email{
+    position: absolute;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    width: 90px;
+    background-repeat: 3px;
+    right: 0;
+    top: 0;
+
+}
+#text-widget .follow-text-qq{
+        background-color: #ec3d51;    
+}
+
+#text-widget .follow-text-qq:hover{
+    background-color: #b92d3e;
+}
+#text-widget .follow-text-vx
+{
+    background-color: #12aae8;
+}
+#text-widget .follow-text-vx:hover{
+    background-color: #0d7fac;
+}
+#text-widget .follow-text-email
+{
+    background-color: #2ab39a;
+}
+#text-widget .follow-text-email:hover{
+    background-color: #1f7e6c;
+}
+.follow-img{
+    width: 20px;
+    height: 20px;
+}
+/* #QQ{
+    background: url('../images/qq.png') no-repeat;
+} */
+
+
+
+/* 热门话题样式 */
+.topTitle{
+    width: 275px;
+    height: 300px;
+    background-color: #1d1f20;
+    margin-bottom: 60px;
+}
+.topTitle #card-header{
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+}
+.topTitle #card-header span{
+    color: #2c63ff;
+}
+
+/* 干货链接样式 */
+.ganhuo{
+    width: 275px;
+    height: 250px;
+    background-color: #1d1f20;
+    margin-bottom: 60px;
+    border-radius: 5px;
+
+}
+.ganhuo #card-header{
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+}
+.ganhuo #card-header span{
+    color: #2c63ff;
+}
+.link{
+    width: 275px;
+    height: 300px;
+    background-color: #1d1f20;
+    margin-bottom: 60px;
+    border-radius: 5px;
+}
+.link #card-header{
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+}
+.link #card-header span{
+    color: #2c63ff;
+}

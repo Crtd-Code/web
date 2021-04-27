@@ -1,0 +1,49 @@
+.time{
+    width: 275px;
+    height: 265px;            
+    /* border: 1px solid #e6e6e6; */
+    border-radius: 5px;
+    background: #1d1f20;
+    position: relative;
+    margin-top: 22px;
+    margin-bottom: 60px;
+}
+.time .header{
+    font-size: 22px;
+    width: 240px;
+    height: 100px;
+    color: #48d1cc;
+    line-height: 100px;
+    text-align: center;
+    padding-left: 10px;
+}
+#clock{
+    background: #00BFFF;
+    /* border: 3px solid #000; */
+    height: 100px;
+    width: 240px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius:50px ;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+#clock span{
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    margin: 2px;
+    line-height: 100px;
+    text-align: center;
+    /* border: 1px solid #000;
+    border-radius: 10px; */
+    /* background: #ffffff; */
+    color: #fff;
+    font-size: 30px;
+}
+#clock em{
+    color: #fff;
+    font-size: 25px;
+    line-height: 100px;
+    height: 100px;
+}

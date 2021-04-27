@@ -1,0 +1,41 @@
+.article{
+    color: #b1b1c1;
+}
+.article .article-title{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    /* border-bottom: #484c50; */
+    border-bottom: 1px solid #fff;
+}
+.article p{
+    font-weight: 400;
+    margin: 0 0 16px;
+    line-height: 26px!important;
+}
+.article img{
+    max-width: 100%;
+    height: auto;
+}
+.article ul{
+    list-style: square;
+    list-style-type: disc;
+}
+.article h2{
+    font-size: 24px;
+    line-height: 32px;
+    margin: 10px 0;
+}
+.article pre{
+    font-size: 14px;
+    background: #1d1f20;
+    width: 100%;
+}
+
+.article pre .hljs-ln-line{
+    width: 740px;
+    overflow: hidden;
+}

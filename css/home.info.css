@@ -1,0 +1,42 @@
+#info{
+    margin-top: 10px;
+    width: 275px;
+    height: 216px;            
+    /* border: 1px solid #e6e6e6; */
+    border-radius: 5px;
+    background: #1d1f20;
+}
+#info #pc_tag{
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    /* border: 1px solid #e6e6e6; */
+}
+#info #pc_tag a{
+    float: left;
+    width: 50%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+#info #pc_tag a:hover{
+    background: #2c63ff;
+}
+#info #d1{
+    display: block;
+}
+#info #d2{
+    display: none;
+}
+.author_info{
+    font-size: 16px;
+    line-height: 30px;
+}
+.author_info p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
+}
