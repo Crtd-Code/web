@@ -14,28 +14,17 @@
         <div class="bgimg"></div>
         <div class="login">
             <h1>欢迎回来</h1>
-            <form  name="myform" action="#" method="POST"onsubmit="return check()">
-                <input type="text" name="usename" id="usename" placeholder="手机/用户名"><br>
+            <form name="myform" action="#" method="POST" onsubmit="return check()">
+                <input type="text" name="username" id="username" placeholder="手机/用户名"><br>
                 <input type="password" name="pwd" id="pwd" placeholder="密码">
             </form>
             <button type="button" onclick="check();" class="loginButton">登录</button>
-            <a href="#" class="OtherLogin">GitHub登录</a>
-            <span >没有账号？<a href="./register.html"class="res">去注册一个吧</a><a href="#"class="forget">忘记密码</a></span>
+            <a href="https://github.com/login" class="OtherLogin">GitHub登录</a>
+            <span>没有账号？<a href="./register.html" class="res">去注册一个吧</a><a href="#" class="forget">忘记密码</a></span>
         </div>
         <span class="tag1">Copyright © <a href="../index.html" title="干货集中营" rel="home">干货集中营</a></span>
     </div>
-    <script>
-        var un=myform.usename.value;
-        var pwd=myform.pwd.value;
-        function check(){
-            // console.log(123);
-            console.log(pwd);
-            // if(un.length<0){alert('用户名不能为空');}
-            // if(pwd.length<0){alert('密码不能为空');}
-        }
-
-
-    </script>
 </body>
+<script src="../js/login.js"></script>
 
 </html>

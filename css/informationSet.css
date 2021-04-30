@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    background-color: #151617;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative; 
+}
+.container .setForm{
+    color: #fff;
+    /* margin-left: 260px; */
+    margin: auto;
+    width: 620px;
+    height: 660px;
+    background-color: #1d1f20;
+}
+.container .setForm h1{
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 40px; 
+
+}
+.container .setForm label{
+    display: inline-block;
+    width: 90px;
+    /* border: 1px solid #fff; */
+    /* text-align: center; */
+}
+.container .setForm p{
+    /* text-align: center; */
+    margin-left: 110px;
+    padding: 18px;
+    font-size: 16px;
+}
+.container .setForm p input{
+    margin-left: 24px;
+    height: 30px;
+    padding-right: 100px;
+}
+.container .setForm .select1{
+    margin-left: -4px;
+    color: #fff;
+    font-size: 14px;
+}
+.container .setForm .select1 input{
+    height: 10px;
+}
+.container .setForm .select1 label{
+    width: 30px;
+}
+.container .setForm .select2{
+    margin-left: 15px;
+    color: #fff;
+    font-size: 14px;
+}
+.container .setForm .select2 label{
+    width: 46px;
+}
+.container .setForm .select2 input{
+    margin-left: 8px;
+    height: 10px;
+}
+
+.container .setForm .button{
+    text-align: center;
+}
+.container .setForm input{
+    margin-top: 10px;
+    background-color: #1d1f20;
+    color: #fff;
+    margin-left: 24px;
+    margin-bottom: 19px;
+    /* width: 288px;
+    height: 34px; */
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.container .select3 {
+    margin-left: 24px;
+}
+.container .setForm textarea{
+    color: #fff;
+    padding: 10px;
+    margin-left: 24px;
+    margin-bottom: -4px;
+    background-color: #1d1f20;
+    padding-right: 98px;
+}
+.container button{
+    width: 136px;
+    height: 35px;
+    background-color: #2c63ff;
+    border: none;
+    margin-top: 28px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+ }
+.container button:hover
+{
+    background-color: #1c0de7;
+}
+.container .b1{
+    background-color: #383e43;
+    margin-left: 130px;
+}
+.container .b1:hover{
+    background-color: #151516;
+} 
+.container .b2{
+    margin-left:90px;
+
+}
+.container span a{
+    width: 94px;
+    height: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+.tag1{
+    color: #585c5f;
+    font-size: 12px;
+    position: absolute;
+    left: 45%;
+    bottom: 50px;
+}
+.tag1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.tag1 a:hover{
+    color: #2c63ff;
+}

@@ -20,7 +20,8 @@ main{
     padding-left: 48px;
     /* border: 1px solid #ffa; */
     /* width: 100px; */
-    float: right;
+    margin-right: 50px;
+    float: left;
     width: 275px;
 }
 
@@ -343,7 +344,10 @@ main{
     width: 126px;
     height: 126px;
     border-radius: 50%;
-    /* margin: 0 auto; */
+    /* background: #fff; */
+    background: url(../images/author2.jpg);
+    background-size: 126px 126px;
+    margin: 0 auto;
 }
 .site-author-name{
     color: #fff;

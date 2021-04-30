@@ -92,3 +92,12 @@ header{
     background: #2c63ff;
     color: #fff;
 }
+/* 个人信息修改 */
+#btn-group #informationSet{
+    background: #1d1f20;
+    color: #2c63ff;
+}
+#btn-group #informationSet:hover{
+    background: #2c63ff;
+    color: #fff;
+}

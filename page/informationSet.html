@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人信息填写</title>
+    <link rel="stylesheet" href="../css/informationSet.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="setForm">
+            <form action="" method="post" name="account" onsubmit="return check()">
+                <h1>个人信息设置</h1>
+                <p>
+                    <label for="username">用户名：</label>
+                    <input type="text" id="username" placeholder="用户名">
+                </p>
+                <p><label for="sex">性别：</label>
+                    <span class="select1">
+                        <input type="radio" name="sex" value="1" id="m" checked="checked"><label for="m">男</label>
+                        <input type="radio" name="sex" value="0" id="f"><label for="f">女</label>
+                    </span>
+                    
+                </p>
+                <p><label for="email">邮箱：</label>
+                    <input type="text" id="email" placeholder="邮箱">
+                </p>
+                <p><label for="favour">兴趣爱好：</label>
+                    <span class="select2">
+                        <input type="checkbox" class="favour" value="1" id="r"><label for="r">去跑步</label>
+                        <input type="checkbox" class="favour" value="2" id="l"><label for="l">听音乐</label>
+                        <input type="checkbox" class="favour" value="3" id="p"><label for="p">玩游戏</label>
+                        <input type="checkbox" class="favour" value="4" id="v"><label for="v">看电影</label>
+                    </span>
+                </p>
+                <p><label for="xueli">学历：</label>
+                    <span class="select3">
+                        <select name="user" id="">
+                            <option value="1">专科</option>
+                            <option value="2">本科</option>
+                            <option value="3">硕士</option>
+                            <option value="4">博士</option>
+                        </select>
+                    </span>
+                </p>
+                <p><label for="selfin">自我介绍：</label>
+                    <textarea id="selfin"></textarea>
+                </p>
+                <button type="reset" class="b1">重填</button> 
+                <button type="submit" class="b2">确认修改</button> 
+            </form>     
+        </div> 
+        <span class="tag1">Copyright © <a href="../index.html" title="干货集中营" rel="home">干货集中营</a></span>
+    </div>
+</body>
+<script src="../js/informationSet.js"></script>
+</html>

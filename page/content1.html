@@ -15,37 +15,42 @@
     <link rel="stylesheet" href="../css/content.css">
 </head>
 <body>
-    <!-- 头部 -->
+    <!-- 导航栏 -->
     <header>
         <ul id="nav">
             <li class="logo1"></li>
             <li>
-                <a href="./index.html">首页</a>
+                <a href="../index.html">首页</a>
             </li>
             <li class="drop-down">
                 <a href="JavaScript:;">标签</a>
                 <ul class="subNav">
-                    <li><a href="#">tag1</a></li>
-                    <li><a href="#">tag2</a></li>
-                    <li><a href="#">tag3</a></li>
+                    <li><a href="../page/content1.html" target="_blank">Python</a></li>
+                    <li><a href="https://juejin.cn/post/6955402195311263751" target="_blank">Node.js</a></li>
+                    <li><a href="https://www.freebuf.com/news/271140.html" target="_blank">Android</a></li>
                 </ul>
             </li>
             <li>
-                <a href="./page/resume1.html">简历</a>
+                <a href="../page/resume1.html">简历</a>
             </li>
             <li>
-                <a href="#">文章</a>
+                <a href="JavaScript:;">文章</a>
+                <ul class="subNav">
+                    <li><a href="../page/list.html">文章列表</a></li>
+                    <li><a href="../page/sketch.html">文章简述</a></li>
+                </ul>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#">链接</a>
-            </li>
+            </li> -->
             <li>
-                <a href="#">推荐</a>
+                <a href="../page/table.html">推荐</a>
             </li>
             <div id="btn-group">
                 <div class="btn">
-                    <a href="./page/register.html" id="register" class="btn">注册</a>
-                    <a href="./page/login.html" id="login" class="btn">登录</a>
+                    <a href="../page/informationSet.html" id="informationSet" class="btn">个人信息填写</a>
+                    <a href="../page/register.html" id="register" class="btn">注册</a>
+                    <a href="../page/login.html" id="login" class="btn">登录</a>
                 </div>
             </div>
         </ul>
@@ -131,9 +136,15 @@
             </div>
             <!-- 主页头像 -->
             <div class="indexImg">
+                <div class="site-author">
+                    <div class="site-author-img"></div>
+                    <!-- <img src="./images/author2.jpg" alt="" class="site-author-img"> -->
+                    <p class="site-author-name">Aike & Grit</p>
+                </div>
+                <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=86 src="https://music.163.com/outchain/player?type=2&id=1384026889&auto=0&height=66"></iframe>
             </div>
 
-             <!-- 关注盒子 -->
+            <!-- 关注盒子 -->
             <div id="follow">
                 <div id="card-header">
                     制作不易 给个关注吧！<span>———</span>
@@ -163,25 +174,60 @@
             <div class="topTitle">
                 <div id="card-header">
                     今日热门话题<span>———</span>
-                </div>                   
+                </div>
+                <ul class="topLeval">
+                    <li class="top1">
+                        <span>1</span><a href="https://so.csdn.net/so/search/all?q=Facebook%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2&t=all&p=1&s=0&tm=0&lv=-1&ft=0&l=&u=" target="_blank">Facebook数据泄露</a>
+                    </li>
+                    <li class="top2">
+                        <span>2</span><a href="https://so.csdn.net/so/search/all?q=2021%E5%B9%B4%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%B6%8B%E5%8A%BF&t=all&p=1&s=0&tm=0&lv=-1&ft=0&l=&u="target="_blank">2021年人工智能趋势</a>
+                    </li>
+                    <li class="top3">
+                        <span>3</span><a href="https://so.csdn.net/so/search/all?q=%E5%A4%A7%E5%8E%82%E8%96%AA%E8%B5%84%E7%BA%A7%E5%88%AB%E5%A4%A7%E6%AF%94%E6%8B%BC&t=all&p=1&s=0&tm=0&lv=-1&ft=0&l=&u="target="_blank">大厂薪资级别大比拼</a>
+                    </li>
+                    <li class="top4">
+                        <span>4</span><a href="https://so.csdn.net/so/search/all?q=%E8%87%AA%E5%AD%A6Python%E6%80%8E%E4%B9%88%E5%85%A5%E9%97%A8&t=all&p=1&s=0&tm=0&lv=-1&ft=0&l=&u="target="_blank">自学Python怎么入门</a>
+                    </li>
+                    <li class="top5">
+                        <span>5</span><a href="https://so.csdn.net/so/search/all?q=java%E9%9B%86%E5%90%88%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98&t=all&p=1&s=0&tm=0&lv=-1&ft=0&l=&u="target="_blank">Java集合常见面试题</a>
+                    </li>
+                </ul>                   
             </div>
             <!-- 本周干货链接 -->
             <div class="ganhuo">
                 <div id="card-header">
                     本周干货链接<span>———</span>
-                </div>                    
+                </div>
+                <ul class="ghcontent">
+                    <li class="g1">
+                        <a href="https://live.csdn.net/room/devcloud/TjvVns0x?utm_medium=distribute.pc_feed_video_elite.none-task-subscribe-liveroom-csdn&dist_request_id=1332048.19908.16195068550959129&depth_1-utm_source=distribute.pc_feed_video_elite.none-task-subscribe-liveroom-csdn&spm=1000.2115.3001.4128" target="_blank">1、华为云专家带你玩转网络存储</a>
+                    </li>
+                    <li class="g2">
+                        <a href="https://so.csdn.net/so/search/all?q=%E9%AB%98%E8%B4%A8%E9%87%8F%E8%87%AA%E5%AD%A6%E7%BD%91%E7%AB%99&t=all&p=1&s=0&tm=0&lv=-1&ft=0&l=&u=" target="_blank">2、高质量自学网站</a>
+                    </li>
+                    <li class="g3">
+                        <a href="https://blog.csdn.net/qq_45173404/article/details/116090861"target="_blank">3、数据结构排序算法</a>
+                    </li>
+                    <li class="g4">
+                        <a href="https://blog.csdn.net/qq_43762191/article/details/116147354"target="_blank">4、C++从入门到开发</a>
+                    </li>
+                </ul>                    
             </div>
             <!-- 个人常用链接 -->
             <div class="link">
                 <div id="card-header">
-                    个人常用链接<span>———</span>
+                    个人常用网站<span>———</span>
+                    <a href="http://moretrue.cn/" target="_blank"  id="url1"><div class="home-common-url"></div></a>
+                    <a href="https://www.mi.com/" target="_blank" id="url2"><div class="home-common-url"></div></a>
+                    <a href="https://www.csdn.net/" target="_blank" id="url3"><div class="home-common-url"></div></a>
+                    <a href="http://google.com/" target="_blank" id="url4"><div class="home-common-url"></div></a>
                 </div>
             </div>
             <!-- 个人信息显示 -->
             <div id="info">
                 <ul id="pc_tag">
-                    <a href="#" tag_index='0'>朱经政</a>
-                    <a href="#" tag_index='1'>田亮</a>
+                    <a href="../page/resume2.html" tag_index='0' class="a1">朱经政</a>
+                    <a href="../page/resume1.html" tag_index='1' class="a2">田亮</a>
                 </ul>
                 <div id="d1" class="author_info">
                     <p>姓名：<span>朱经政</span></p>

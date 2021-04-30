@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,26 @@
     <title>注册</title>
     <link rel="stylesheet" href="../css/register.css">
 </head>
+
 <body>
     <div class="container">
         <div class="bgimg"></div>
         <div class="login">
             <h1>注册</h1>
-            <form  name="myform" action="#" method="POST"onsubmit="return check()">
+            <form name="myform" action="#" method="POST" onsubmit="return check()">
                 <input type="text" name="tel" id="tel" placeholder="手机号"><br>
-                <div class="ip1"><input type="text" name="phoneCode" id="phoneCode" placeholder="短信验证码"><span><button type="button">发送短信验证码</button></span></div><br>
-                <input type="password" name="pwd" id="pwd" placeholder="密码">
+                <div class="ip1"><input type="text" name="phoneCode" id="phoneCode" placeholder="短信验证码"><span><button
+                            type="button">发送短信验证码</button></span></div><br>
+                <input type="password" name="pwd" id="pwd" placeholder="请输入8-16位密码，必须包含字母和数字">
                 <input type="password" name="repwd" id="repwd" placeholder="确认密码">
 
             </form>
-            <button type="button" onclick="check();" class="reButton">注册</button>
+            <button type="submit" onclick="check();" class="reButton">注册</button>
             <a href="../page/login.html" class="pre">返回登录</a>
         </div>
         <span class="tag1">Copyright © <a href="../index.html" title="干货集中营" rel="home">干货集中营</a></span>
     </div>
+    <script src="../js/register.js"></script>
 </body>
+
 </html>

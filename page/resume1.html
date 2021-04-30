@@ -5,43 +5,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/resume.css">
-    <link rel="stylesheet" href="../css/home.nav.css">
-    <link rel="stylesheet" href="../css/home.footer.css">
+    <title>简历</title>
+    <!-- 复用样式 -->
+        <!-- 网页logo -->
+        <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+        <!-- 导航栏样式 -->
+        <link rel="stylesheet" href="../css/header.css">
+        <!-- 页脚样式 -->
+        <link rel="stylesheet" href="../css/footer.css">
+        <!-- 页面右侧 -->
+        <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    
+    <!-- 单独样式 -->
+        <link rel="stylesheet" href="../css/resume.css">
 </head>
 
 <body>
+    <!-- 导航栏 -->
     <header>
-        <i id="top"></i>
-        <!-- 导航栏 -->
         <ul id="nav">
-            <li><img src="../images/logo1.jpg" alt=""></li>
+            <li class="logo1"></li>
             <li>
                 <a href="../index.html">首页</a>
             </li>
             <li class="drop-down">
                 <a href="JavaScript:;">标签</a>
                 <ul class="subNav">
-                    <li><a href="#">tag1</a></li>
-                    <li><a href="#">tag2</a></li>
-                    <li><a href="#">tag3</a></li>
+                    <li><a href="../page/content1.html" target="_blank">Python</a></li>
+                    <li><a href="https://juejin.cn/post/6955402195311263751" target="_blank">Node.js</a></li>
+                    <li><a href="https://www.freebuf.com/news/271140.html" target="_blank">Android</a></li>
                 </ul>
             </li>
             <li>
                 <a href="../page/resume1.html">简历</a>
             </li>
             <li>
-                <a href="#">文章</a>
+                <a href="JavaScript:;">文章</a>
+                <ul class="subNav">
+                    <li><a href="../page/list.html">文章列表</a></li>
+                    <li><a href="../page/sketch.html">文章简述</a></li>
+                </ul>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#">链接</a>
-            </li>
+            </li> -->
             <li>
-                <a href="#">推荐</a>
+                <a href="../page/table.html">推荐</a>
             </li>
             <div id="btn-group">
                 <div class="btn">
+                    <a href="../page/informationSet.html" id="informationSet" class="btn">个人信息填写</a>
                     <a href="../page/register.html" id="register" class="btn">注册</a>
                     <a href="../page/login.html" id="login" class="btn">登录</a>
                 </div>
@@ -114,20 +127,22 @@
                     <div id="footer1">
                         <p>主页</p>
                         <span>赣ICP备20010009</span>
-                        <img src="./images/beian.png" alt="">
+                        <span class="beian-img"></span>
                     </div>
                 </div>
                 <div id="footer-bottom">
                     <span>合作伙伴：</span>
-                    <a href="/">gank</a>
+                    <a href="../index.html">干货集中营</a>
                 </div>
             </div>
         </div>
         <!-- 回到顶部 -->
-        <a href="#top" id="to-top">
+        <a href="#" id="to-top">
             <div></div>
         </a>
     </footer>
 </body>
 
+<!-- 导航栏js -->
+<script src="../js/home.nav.js"></script>
 </html>
